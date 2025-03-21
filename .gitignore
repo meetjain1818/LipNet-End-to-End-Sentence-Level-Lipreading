@@ -1,0 +1,8 @@
+# Ignore the data folder
+data/
+processed_mouth_data/
+*.dat
+*.mpg
+*.npy
+*.tmp
+*.log
