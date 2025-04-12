@@ -54,3 +54,15 @@ git branch -m main
 touch .gitignore
 vim .gitignore
 cat .gitignore
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/meetjain1818/LipNet-End-to-End-Sentence-Level-Lipreading.git
+git push -u origin main
+ls
+rm -rf models
+ls -a
+cat .gitignore
+vim .gitignore
+cat .gitignore
+git add .
+git status
