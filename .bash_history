@@ -66,3 +66,11 @@ vim .gitignore
 cat .gitignore
 git add .
 git status
+git add .
+git status
+git commit -m "chnaged the main.ipynb"
+git push origin main
+pip install uv
+pip install uv
+pip3 install torch torchvision torchaudio
+pip3 install torchinfo
