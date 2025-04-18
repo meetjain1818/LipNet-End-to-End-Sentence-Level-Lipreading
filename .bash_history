@@ -74,3 +74,24 @@ pip install uv
 pip install uv
 pip3 install torch torchvision torchaudio
 pip3 install torchinfo
+git add .
+git commit -m "added rewrote the code in pytorch in main2.ipynb"
+git config --global user.email "meetjain1818@gmail.com"
+git config --global user.name "Meet Jain"
+git commit -m "added rewrote the code in pytorch in main2.ipynb"
+git push origin main
+ls
+rm -rf 1_processed_mouth_data Trainedmodels checkpoints.zip
+python zip_dir.py
+python zip_dir.py
+python zip_dir.py
+rm -rf data.zip
+#!/bin/bash
+curl -L -o ~/Downloads/grid-corpus-dataset-for-training-lipnet.zip  https://www.kaggle.com/api/v1/datasets/download/jedidiahangekouakou/grid-corpus-dataset-for-training-lipnet
+mv /teamspace/studios/this_studio/.cache/kagglehub/datasets/jedidiahangekouakou/grid-corpus-dataset-for-training-lipnet/versions/1/data ./GRIDCorpus
+cd GRIDCorpus/processed_mouth_data
+ls
+rm -rf s4_processed
+cat .gitignore
+vim .gitignore
+cat .gitignore

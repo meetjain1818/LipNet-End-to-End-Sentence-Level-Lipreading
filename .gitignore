@@ -6,3 +6,5 @@ models/
 *.npy
 *.tmp
 *.log
+GRIDCorpus/
+*.zip
