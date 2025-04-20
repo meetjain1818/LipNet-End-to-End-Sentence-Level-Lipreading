@@ -95,3 +95,35 @@ rm -rf s4_processed
 cat .gitignore
 vim .gitignore
 cat .gitignore
+git add .
+git status
+git commit -m "trained main2-Copy2.ipynb for 100 epochs on 3 speakers"
+git push origin main
+dlib --vesrsion
+pip list | grep dlib
+pip list | grep cmake
+ls
+rm -rf processed_mouth_data
+rm -rf data
+rm -rf requirements.txt
+ls
+rm -rf processed_mouth_data.zip
+uv init
+vim .python-version
+uv sync
+pip list | grep tensorflow
+pip list | grep cuDNN
+pip list
+ls
+rm -rf main2-Copy1.ipynb models_pytorch LipNet.ipynb main2.ipynb main.ipynb models
+uv add tensorflow
+python3 "import os; os.system('ls')"
+python3 test.py
+python3 test.py
+pip list
+cd ..
+ls
+rm -rf LipNet_Tensorflow.ipynb
+git add .
+git status
+vim .gitignore

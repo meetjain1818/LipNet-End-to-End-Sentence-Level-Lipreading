@@ -1,6 +1,6 @@
 data/
 processed_mouth_data/
-models/
+trained_models/
 *.dat
 *.mpg
 *.npy
